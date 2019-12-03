@@ -1,4 +1,4 @@
-public class Account{
+public class Bank{
 	public int withdraw (int pin){
 	}
 	public void deposit (int amount, int accountno){
