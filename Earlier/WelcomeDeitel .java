@@ -5,4 +5,4 @@ public class WelcomeDeitel {
 		System.out.println("Welcome to Java Programming!");
 	} // end method main
 
-} // end class WelcomeDeitel 
+} // end class WelcomeDeitel

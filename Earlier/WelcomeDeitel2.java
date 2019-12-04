@@ -9,4 +9,17 @@ public class WelcomeDeitel2 {
 
 	} // Unlike println, after displaying its argument, print does not 		//position the output cursor at the beginning of the next line—the next 		//character the program displays will appear immediately after the last 		//character that print displays.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 } // end class WelcomeDeitel2
