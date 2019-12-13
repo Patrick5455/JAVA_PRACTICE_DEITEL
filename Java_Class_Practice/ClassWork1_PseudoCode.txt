@@ -1,0 +1,13 @@
+1. Ask user to input first number
+2. Collet first number
+3. Save first number as num1
+4. Ask user to input second number
+5. Collet second number
+6. Save second number as num2
+7. Ask user to input third number
+8. Collet third number
+9. Save third number as num3
+10. Add num1 and num 2
+11. Save the sum as result
+12. if result is greater than num3, print "Result"
+13 if num3 greater than result, print "Third"
