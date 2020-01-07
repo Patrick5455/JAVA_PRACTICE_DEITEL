@@ -1,0 +1,6 @@
+Algorithm for Parking Charges
+
+Goal: Write an application that calculates and display the parking charges for each customer and total of all reciepts
+
+First Refinement:
+1. 

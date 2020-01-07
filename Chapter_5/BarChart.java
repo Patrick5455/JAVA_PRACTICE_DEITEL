@@ -12,7 +12,7 @@ public class BarChart{
 		
 	}
 	
-	System.out.printf("%d\t%d%n", counter, );
+	//System.out.printf("%d\t%d%n", counter, );
 	
 	
 	

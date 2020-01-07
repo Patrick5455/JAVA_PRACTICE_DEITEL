@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class SalesCalculator {
 
-	private double product1 = 2.98; private double product2 = 4.50; 
-	private double product3 = 9.98; private double product4 = 4.49; 
-	private double product5 = 6.87;
+	private final double product1 = 2.98; private final double product2 = 4.50; 
+	private final double product3 = 9.98; private final double product4 = 4.49; 
+	private final double product5 = 6.87;
 	
 	private int productnum =0; private double qtySold =0;
 	
