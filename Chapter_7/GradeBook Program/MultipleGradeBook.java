@@ -31,23 +31,32 @@ public class MultipleGradeBook{
 	
 		System.out.printf("%n%n Highest Score is: %d%n%n",getMaximum());
 		
-		System.out.printf("%n%n Average Score is: %d%n%n",getAverage());
-		
-		System.out.printf("%n%n Distribution of score in %s%n%n", courseName);
+		System.out.printf("%n%n Overall Distribution of score in %S%n%n", courseName);
 		displayBarChart();
 	}
 	
 	public void outputGrades(){
-		int student =0;
-		for (int [] row: grades){
+		int student=0;
+		
+		System.out.printf("%n%n\t\t");
+		
+		for (int test =0; test<grades[0].length; test++)
+				System.out.printf("Test %d\t",test+1);
+		System.out.printf("%s","Average");
+		System.out.println("\n");
 			
-			for (int column =0; column<row.length; column++){
-				student++;
-				
-				System.out.printf(" Student %s - %d", student, row[column]);
-				
+		for (int [] row: grades){
+		
+			student++;
+			System.out.printf("Student %d ", student);
+			int total =0;
+			
+			for (int column =0; column<row.length; column++){	
+				System.out.printf("%8d", row[column]);
+			total+= row[column];
 			}
-				System.out.println();
+			System.out.printf("\t%.2f", (double)total/row.length);
+			System.out.println("\n");
 		}
 	}
 	
@@ -65,9 +74,7 @@ public class MultipleGradeBook{
 				minimum = column;
 			}
 		}
-		
-		//System.out.printf("Minimum Value is: %d%n ", minimum);
-		return minimum;
+	return minimum;
 	}
 	
 	public int getMaximum(){
@@ -82,25 +89,23 @@ public class MultipleGradeBook{
 					maximum = column;
 			}
 		}
-		//System.out.printf("Maximum Value is: %d%n ", maximum);
 		return maximum;
 	}
 	
-	public int getAverage(){
-		int total =0;
-		int average =0;
-		int count =0;
+	/*public void getAverage(int [][] gradesArray,int total){
 		
-		for (int [] row: grades){
-			for (int column: row){
-				count++;
-				total+=column;
-				average = total/count;
-			}
+		for (int [] row: gradesArray){
+			
+			total =0;
+			for (int column=0; column<row.length; column++)
+				total+=row[column];
+			
+			double average = (double) total/row.length;
+			System.out.printf("\t%.2f",average);
 		}
-		//System.out.printf("Average Value is: %d%n ", average);
-		return average;	
-	}
+		
+			//return average;
+	}*/
 	
 	public void displayBarChart(){
 		
@@ -116,7 +121,7 @@ public class MultipleGradeBook{
 			
 				switch (counter){
 					case 10:
-					System.out.printf("%5d", 100);
+					System.out.printf("%5d ", 100);
 					break;
 					
 					case 9:
@@ -129,7 +134,7 @@ public class MultipleGradeBook{
 					case 2:
 					case 1:
 					case 0:
-					System.out.printf("%d-%d", counter*10, counter*10+9);
+					System.out.printf("%02d-%02d ", counter*10, counter*10+9);
 					break;
 					
 					default:
