@@ -1,7 +1,4 @@
-//import java.util.Scanner;
 public class MultipleGradeBook{
-	
-	//Scanner input = new Scanner(System.in);
 	
 	private String courseName; private int [] [] grades;
 	
@@ -12,8 +9,6 @@ public class MultipleGradeBook{
 	}
 	
 	public void setCourseName (String courseName){
-		//System.out.println("Enter Course Name");
-		//courseName = input.nextLine();
 		this.courseName = courseName;
 	}
 	
@@ -49,13 +44,11 @@ public class MultipleGradeBook{
 		
 			student++;
 			System.out.printf("Student %d ", student);
-			int total =0;
 			
 			for (int column =0; column<row.length; column++){	
 				System.out.printf("%8d", row[column]);
-			total+= row[column];
 			}
-			System.out.printf("\t%.2f", (double)total/row.length);
+			System.out.printf("\t%.2f", getAverage(row));
 			System.out.println("\n");
 		}
 	}
@@ -92,20 +85,19 @@ public class MultipleGradeBook{
 		return maximum;
 	}
 	
-	/*public void getAverage(int [][] gradesArray,int total){
+	public double getAverage(int [] studentGrades){
 		
-		for (int [] row: gradesArray){
+			int total =0;
+			double average=0;
+			for (int grade=0; grade<studentGrades.length; grade++){
+				
+				total+=studentGrades[grade];
 			
-			total =0;
-			for (int column=0; column<row.length; column++)
-				total+=row[column];
-			
-			double average = (double) total/row.length;
-			System.out.printf("\t%.2f",average);
-		}
-		
-			//return average;
-	}*/
+			 average = (double) total/studentGrades.length;
+	
+			}
+		return average;
+	}
 	
 	public void displayBarChart(){
 		
@@ -145,7 +137,7 @@ public class MultipleGradeBook{
 					System.out.print("*");
 				
 				System.out.println();
-			}			
+		}			
 	}
 	
 }
