@@ -1,4 +1,4 @@
-package exercises_3;
+package Algorithm_Solutions.exercises_3;
 import java.util.Scanner;
 public class DateTest{
 

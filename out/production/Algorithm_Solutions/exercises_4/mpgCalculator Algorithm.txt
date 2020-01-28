@@ -1,0 +1,41 @@
+mpgCalculator Algorithm
+
+Goal: The application should show the mpg for each trip and mpg for all trip
+
+First refinement:
+
+-Instantiate variables
+-Show the mpg  in a trip
+-Show the total mpg for all trips
+
+Second Refinement: 
+
+-Instantiate variable miles to zero
+-Instantiate variable gallon to zero
+-nstantiate variable total miles to zero
+-Instantiate variable total gallon to zero
+-Instantiate no of trip to zero
+
+-Enter 0 to cancel application
+-prompt collect and save value for  no of miles (continue if input is not 0 )
+-add value of miles to total miles 
+
+-while no of miles is not equal to 0
+	prompt collect and save value for  no of gallon
+	add value of gallon to total gallon
+
+	if miles and gallon do not equal to zero
+		divide miles by gallon & save as variable mpg as double 
+		print mpg
+
+	Enter 0 to check total mileage per gallon (if not loop continues)
+
+	prompt collect and save value for  no of miles                          	(continue if input is not 0 )
+	add value of miles to total miles 
+	
+	increament no of trip by 1
+
+- divide total miles by total gallon
+-print total mpg
+	
+

@@ -1,4 +1,4 @@
-package classworks_assignments;
+package Algorithm_Solutions.classworks_assignments;
 public class Account1{
 	private double accountNumber;
 	private String accountName;

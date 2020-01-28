@@ -1,4 +1,4 @@
-package exercises_3;
+package Algorithm_Solutions.exercises_3;
 public class Date {
 	
 	private int month;

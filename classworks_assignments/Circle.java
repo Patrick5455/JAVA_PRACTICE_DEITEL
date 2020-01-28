@@ -1,4 +1,4 @@
-package classworks_assignments;
+package Algorithm_Solutions.classworks_assignments;
 //Program to find the Area of a circle
 
 import java.util.Scanner;

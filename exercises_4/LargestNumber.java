@@ -1,4 +1,4 @@
-package exercises_4;
+package Algorithm_Solutions.exercises_4;
 import java.util.Scanner;
 public class LargestNumber{
 	

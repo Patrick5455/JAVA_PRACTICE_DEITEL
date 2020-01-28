@@ -1,4 +1,4 @@
-package exercises_4;
+package Algorithm_Solutions.exercises_4;
 public class Chapter5Statements{
 	
 	public static void main (String... args){

@@ -1,4 +1,4 @@
-package classworks_assignments;
+package Algorithm_Solutions.classworks_assignments;
 public class WemaAccountTest{
 	
 	public static void main(String... args){

@@ -1,4 +1,4 @@
-package exercises_6;
+package Algorithm_Solutions.exercises_6;
 import java.util.Scanner;
 public class ParkingCharges{
 	

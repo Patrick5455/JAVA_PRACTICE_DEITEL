@@ -1,4 +1,4 @@
-package exercises_4;
+package Algorithm_Solutions.exercises_4;
 public class SalesCommissionCalculatorTest{
 
 public static void main(String... args){

@@ -1,4 +1,4 @@
-package exercises_2;
+package Algorithm_Solutions.exercises_2;
 public class Table{
 	
 	public static void main (String... args){

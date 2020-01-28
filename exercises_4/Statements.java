@@ -1,4 +1,4 @@
-package exercises_4;
+package Algorithm_Solutions.exercises_4;
 public class Statements{
 
 // Write Java statements to accomplish each of the following tasks:

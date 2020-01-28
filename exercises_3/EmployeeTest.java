@@ -1,4 +1,4 @@
-package exercises_3;
+package Algorithm_Solutions.exercises_3;
 public class EmployeeTest{
 	
 	public static void main(String... args){

@@ -1,4 +1,4 @@
-package exercises_4;
+package Algorithm_Solutions.exercises_4;
 public class sumEven{
 
 
@@ -6,16 +6,16 @@ public class sumEven{
 		
 		int total = 0;
 	
-	for (int x =2; x<=20; x+=2){
+	/*for (int x =2; x<=5; x=x+2){
 			total +=x;
-			System.out.println(total);
+			System.out.print(total);
 		 
-	}
+	}*/
 		
 //Or
 	total =0;
 
-	for (int y = 2; y<=20; total+=y, y+=2){
+	for (int y = 2; y<=5; total+=y, y+=2){
 		
 	}
 	System.out.println(total);

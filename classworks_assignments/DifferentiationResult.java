@@ -1,4 +1,4 @@
-package classworks_assignments;
+package Algorithm_Solutions.classworks_assignments;
 import java.util.Scanner;
 
 public class DifferentiationResult{

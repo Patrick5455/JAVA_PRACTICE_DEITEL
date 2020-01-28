@@ -1,4 +1,4 @@
-package exercises_2;
+package Algorithm_Solutions.exercises_2;
 import java.util.Scanner;
 
 public class Chapter2ExercisesA {

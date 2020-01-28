@@ -1,4 +1,4 @@
-package exercises_7;
+package Algorithm_Solutions.exercises_7;
 import java.security.SecureRandom;
 
 public class DiceArray {

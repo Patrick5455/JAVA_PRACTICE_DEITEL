@@ -1,6 +1,9 @@
-package exercises_7;
+package Algorithm_Solutions.exercises_7;
+
 import java.util.ArrayList;
 public class Arraylist{
+
+	//System.out.printf ("%s",)
 
 	public static void main (String... args){
 		
@@ -16,7 +19,19 @@ public class Arraylist{
 		//Remove Elements
 		stringArray.remove("Patrick");
 		stringArray.remove(1);
-		
+		System.out.printf("%s%n",stringArray.get(1));
+
+
+		//Contains Element
+		System.out.printf ("%s%n",stringArray.contains("Damilare"));
+		System.out.printf ("%s%n",stringArray.contains("Patrick"));
+
+
+		//Get Elements
+		System.out.printf("%s%n", stringArray.get(0));
+
+		//Array Size
+		System.out.printf("%s%n",stringArray.size());
 	
 	
 	}

@@ -1,4 +1,4 @@
-package exercises_7;
+package Algorithm_Solutions.exercises_7;
 public class BarChart {
 	
 	public static void main(String... args){

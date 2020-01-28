@@ -1,4 +1,4 @@
-package exercises_2;
+package Algorithm_Solutions.exercises_2;
 import java.util.Scanner;
 public class Digit5{
 	
@@ -14,7 +14,7 @@ public class Digit5{
 			System.out.println("Number lesser than five");
 		}
 		else{
-			if (number > 99999){
+			if (number > 99_999){
 			System.out.println("Number greater than five");
 			}
 			
