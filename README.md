@@ -1,2 +1,2 @@
-# Java_Data_Structures_Algorith
-Algorithm Exercise Solutions - Basic to Advance
+# Java Data Structures & Algorithm
+Algorithm Exercise Solutions - Basic to Advanced
