@@ -1,4 +1,4 @@
-package Algorithm_Solutions.exercises_7;
+package exercises_7;
 
 import java.util.ArrayList;
 public class Arraylist{
