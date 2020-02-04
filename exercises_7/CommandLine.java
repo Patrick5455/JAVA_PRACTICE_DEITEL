@@ -4,7 +4,10 @@ public class CommandLine{
 
 	public static void main (String... args){
 	
-		if (args.length !=3) System.out.println("ERROR!. Enter valid arguments of 3 digits. The first digit indicates array length, the second, intial value and the thir the increment value");
+		if (args.length !=3)
+			System.out.println("ERROR!. Enter valid arguments of 3 digits. " +
+					"The first digit indicates array length, " +
+					"the second, intial value and the thir the increment value");
 			
 		else{
 		
