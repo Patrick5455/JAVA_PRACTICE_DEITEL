@@ -2,6 +2,7 @@
   <dictionary name="patrick">
     <words>
       <w>addarray</w>
+      <w>nums</w>
     </words>
   </dictionary>
 </component>
