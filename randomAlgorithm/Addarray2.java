@@ -1,21 +1,30 @@
 package randomAlgorithm;
 
 import java.util.Scanner;
-public class Addarray {
-    public static void main(String... args){
-        int [] arr = new int [10];
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter a set of ten numbers to sum");
-        int total =0;
-        for (int i=0; i<arr.length; i++){
-            System.out.printf("Number %d%n", i+1);
-            int num = input.nextInt();
-            arr[i]=num; total+=arr[i];
+
+public class Addarray2 {
+
+    static Scanner input = new Scanner(System.in);
+
+    static int user;  static int total = 0;
+
+    public static void main(String... args) {
+
+        System.out.println("Enter a set of  numbers to sum. To stop entry, press 0");
+
+        user = input.nextInt();
+        addNums(user);
+        while (user != 0) {
+            user = input.nextInt();
+            addNums(user);
         }
-        System.out.printf("Total is %d", total);
+        System.out.printf("Total is %d", addNums(user));
+    }
 
+    public static int addNums(int... numbers) {
 
-
-
+            for (int num: numbers)
+                total+=num;
+            return total;
     }
 }
