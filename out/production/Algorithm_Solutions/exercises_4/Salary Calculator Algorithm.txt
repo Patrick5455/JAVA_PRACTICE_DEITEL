@@ -1,5 +1,0 @@
-Salary Calculator Algorithm 
-
-Goal: Calculate and Display each employee gross pay
-
-First Refinement:
