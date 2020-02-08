@@ -12,5 +12,8 @@ public class SalesCommissionArrayDriver {
         obj1.displaySalary();
        // obj1.salaryFrequency();
         obj1.frequencyD();
+
+        //obj1.day=0;
+
     }
 }

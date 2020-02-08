@@ -1,8 +1,8 @@
 package exercises_6;
 
 import java.security.SecureRandom;
-public class CrapsGame{
-	
+public class CrapsGame {
+
 	private static final SecureRandom randomValue = new SecureRandom();
 
 	private static final int seven = 7;
@@ -10,10 +10,12 @@ public class CrapsGame{
 	private static final int two = 2;
 	private static final int three =3;
 	private static final int twelve =12;
-	
+
+
 	 private enum Status {WIN, LOSE, CONTINUE}
 
 	public static void main(String... args){
+
 
 	 	int diceSum = rollDices(); Status gameStatus; int myPoint =0;
 

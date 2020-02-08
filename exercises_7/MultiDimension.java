@@ -1,4 +1,6 @@
-package Algorithm_Solutions.exercises_7;
+package exercises_7;
+
+import org.jetbrains.annotations.NotNull;
 
 public class MultiDimension{
 	
@@ -19,7 +21,7 @@ public class MultiDimension{
 		
 	}
 
-	public static void displayArray(int[][] array){
+	public static void displayArray(@NotNull int[][] array){
 			
 			for(int row=0; row<array.length; row++){
 				

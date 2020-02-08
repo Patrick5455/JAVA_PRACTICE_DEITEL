@@ -10,6 +10,7 @@ public class CrapsGameModified {
 	private static int bankBalance = 1000;
 	static int wager=0;
 	static int diceSum=0;
+	public static Object value;
 
 
 	private static final int seven = 7;

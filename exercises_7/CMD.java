@@ -1,4 +1,4 @@
-package Algorithm_Solutions.exercises_7;
+package exercises_7;
 
 public class CMD {
 	
@@ -7,7 +7,7 @@ public class CMD {
 		
 		
 		if (args.length!=3) System.out.println("Error, Input three figures with spaces in between");
-		
+
 		else{
 			
 		int arrayLength = Integer.parseInt(args[0]);

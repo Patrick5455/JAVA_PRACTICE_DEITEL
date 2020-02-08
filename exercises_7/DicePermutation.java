@@ -1,14 +1,14 @@
 package exercises_7;
 
 import  java.util.Random;
-public class DiceRolling {
+public class DicePermutation {
 
     static Random randValue = new Random();
     static int dice1;
     static int dice2;
     static int diceArray [] = new int[13];
 
-    static int noOfRolls = 600+randValue.nextInt(36000);
+    //static int noOfRolls = 600+randValue.nextInt(36000);
 
     public static int rolldices(){
         dice1 = 1+randValue.nextInt(6);
@@ -18,7 +18,7 @@ public class DiceRolling {
 
     public static void actionTime(){
         int face=0;
-        for (int times =0; times<=noOfRolls; times++){
+        for (int times =0; times<=36000000; times++){
             ++diceArray[rolldices()];
         }
     }
@@ -31,7 +31,7 @@ public class DiceRolling {
     }
 
     public static void main(String... args){
-        System.out.printf("A TABLE OF POSSIBLE COMBINATIONS FOR TWO DICES - %d TIMES%n", noOfRolls);
+        System.out.printf("A TABLE OF POSSIBLE COMBINATIONS FOR TWO DICES - %,d TIMES%n", 36000000);
         actionTime();
         frequencyTable();
     }

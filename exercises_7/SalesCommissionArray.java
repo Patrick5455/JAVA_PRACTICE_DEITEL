@@ -7,6 +7,7 @@ public class SalesCommissionArray {
 
     private int[] salaries = new int[10];
     private String week;
+    public int day;
 
     public void setSalaries() {
 
