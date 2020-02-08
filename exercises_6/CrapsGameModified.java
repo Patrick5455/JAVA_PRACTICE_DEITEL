@@ -2,7 +2,7 @@ package exercises_6;
 
 import java.security.SecureRandom;
 import java.util.Scanner;
-public class CrapsGameModification {
+public class CrapsGameModified {
 
 	static Scanner input = new Scanner (System.in);
 	private static final SecureRandom randomValue = new SecureRandom();
