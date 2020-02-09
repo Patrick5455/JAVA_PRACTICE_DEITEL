@@ -37,6 +37,7 @@ public class SalesAggregator {
         return totalProductSale;
     }
 
+    //Collect input from sales recorder
     private static void storeRecord(){
         byte productCount = 0; byte productLimit =4;
         for (byte product=0; product<salesBook.length; product++){
@@ -52,7 +53,7 @@ public class SalesAggregator {
 
     private static void displayRecord(){
         System.out.println("\t\t\t\tSalesMan 1\t\tSalesMan 2\t\tSalesMan 3\t\tSalesMan 4\t\tTotal Sales\n");
-        byte productCount =0; byte x =0;
+        byte productCount =0; byte x =1;
 
         //Get the value for product sales in the array
         byte pTotalIndex =0;
@@ -69,26 +70,31 @@ public class SalesAggregator {
             System.out.println();
             System.out.println();
             productCount+=4;
-            if(x==5) System.out.print("Total Sales");
+            if(x==6) System.out.printf("%s","Total Sales");
         }
-//        byte y = 0;
-//        for(int[] product : salesBook) {
-//            int salesManTotal = 0;
-//            byte sTotalIndex = 0;
-//            y++;
-//            sTotalIndex = y;
-//            for (int salesMan = 0; salesMan<1; sTotalIndex += 4, salesMan++) {
-//                salesManTotal += salesBook[salesMan][sTotalIndex];
-//                System.out.printf("%,15d",salesManTotal);
-//            }
-//        }
+
+    }
+
+    private static void displayRecord2(){
+        int x =17; int y =0;
+        for(int product=0; product<salesBook.length-1; product++){
+            int totalSales=0; int z =0;
+            for (int sales=y; sales<x; z++, sales+=4){
+                if(sales==20) break;
+                totalSales+= salesBook[z][sales];
+                //System.out.print(totalSales);
+            }
+            System.out.printf("%,14d",totalSales);
+            y += 1; x++;
+        }
+
     }
 
 public static void main(String... args){
 
     storeRecord();
-    SalesAggregator.displayRecord();
-
+    displayRecord();
+    displayRecord2();
     }
 
 }
