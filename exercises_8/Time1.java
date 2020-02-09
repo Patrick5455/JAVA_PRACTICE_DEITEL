@@ -6,7 +6,7 @@ public class Time1 {
     private int minute;
     private int second;
 
-    public void setTime(int hour, int minute, int second){
+    public void seTime(int hour, int minute, int second){
 
         //validate hour,minute,second
         if(hour<0 || hour>=24 || minute <0 || minute >= 60 || second < 0 || second >= 60){
