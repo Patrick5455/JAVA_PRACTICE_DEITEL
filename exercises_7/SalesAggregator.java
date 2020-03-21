@@ -30,7 +30,7 @@ public class SalesAggregator {
         return productNUm;
     }
 
-    //Collect totalProductSale
+    //Collect totalProdtiuctSale
     private static int productSale(){
         totalProductSale = scan.nextInt();
 
@@ -95,6 +95,7 @@ public static void main(String... args){
     storeRecord();
     displayRecord();
     displayRecord2();
+
     }
 
 }
