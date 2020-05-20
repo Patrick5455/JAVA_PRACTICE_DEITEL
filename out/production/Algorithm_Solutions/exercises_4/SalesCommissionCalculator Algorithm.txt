@@ -1,0 +1,19 @@
+SalesCommissionCalculator Algorithm
+
+Goal: Display sales earnings for every sales person
+
+Frist Refinement:
+-Get the price of each item sold
+- Get the sales record
+- Calculate 9% comission of indidvidual gross sales
+-Add $200 to the comission
+-print the sales comission for each individual
+
+Second Refinement:
+-Initialise varibales(item1qty, item2qty, item3qty, item4qty, grossSales)as double
+-declare a constructor with (item1qty, item2qty, item3qty, item4qty) as parameters
+-declare set methods for quantity of each item
+	collect, save each item qty and initialise as values for variables (item1qty, item2qty, item3qty, item4qty)
+-declare method to calculate gross sales
+-declare a method to display grosssales
+-declare method to calculate and display sales comission

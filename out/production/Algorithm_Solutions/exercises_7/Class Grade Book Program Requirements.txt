@@ -1,0 +1,13 @@
+Class Grade Book Program Requirements
+
+1. set and get coursename
+
+2. collect array of grades
+
+3. process Grades
+ - output grades (student and grades)
+- get average
+- get minimum
+- get maximum
+- output barchart
+-get total

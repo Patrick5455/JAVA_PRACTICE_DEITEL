@@ -1,0 +1,11 @@
+1. Collect the array of rating figures 
+	int [] ratings = {1,2,3,...5};
+2. create an array frequency with length of 6 to store frequecny of figures 
+	int [] frequency = new int [6]
+4.create a counter for loop intialiased with 1 with condition <= ratings.length
+	for (int counter =1; counter <= ratings.length; counter++)
+create a	switch statement with cases of 1-5 
+	switch (rating[counter])
+if switch conditions matches a case, increment the value of frequency index
+	++frequency[counter]
+	

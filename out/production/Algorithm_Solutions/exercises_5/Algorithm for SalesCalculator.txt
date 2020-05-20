@@ -1,0 +1,46 @@
+Algorithm for SalesCalculator
+
+Goal: Create an application that reads a series of pairs of number as follows: product num and qty sold. The application should calculate and display the total retail value of all products sold.
+
+First Refinement:
+1. Get the product number and qty sold of all items that were sold 
+2. Calculate the retail value for each product sold 
+3. Calculate the total retail value for all products sold
+
+
+Second refinement
+1. Set the unit price for each product number
+2. From user, collect product number and qty sold for each product number
+3. User should keep adding product and qty sold for each product till they cancel application
+4. multiply each product number by the qty sold and store as retail value 
+5.  add together the retial value of all product no entered
+6. display the total retail value
+
+Third refinenement
+1. initialise instance variables for each product number with thier unit price as values 
+int product 1 = $, int product 2 = $, .....
+intialise instance variable int totalRetailValue =0;
+2. initalise instance varible to collect product num and qty sold as 0
+int productNum =0; int qtySold =0;
+3. while (input.hasNext()) 
+	collect productnum
+	switch (producNUm)
+		case 1:
+		collect qty sold 
+		productNum1 = productnum1*qtySold
+		return productNum1;
+		break;
+
+		etc. 
+		
+	totalRetailValue = addition of all productnum entered
+4. method to display totalRetailValue
+		
+		
+	
+		
+
+		
+	
+	
+	

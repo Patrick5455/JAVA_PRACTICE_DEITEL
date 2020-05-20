@@ -1,0 +1,21 @@
+LargestNumber Algorithm
+
+Goal: a Java application that inputs a series of 10 integers and determines and prints the largest integer.
+
+First Refinement
+1. Declare ;Largest number as 0
+2. Collect number from user
+3. Compare each number from user with largest number
+4. If number from user is greater than largest number, store input from user as largest number
+
+Second Refinement
+1. Declare and initialise the following variables as 0
+	- int Counter =0;
+	int number =0;
+	int largest = 0;
+2. while (input.hasNext)
+	collect number from user
+	 If number is greater than largest 	
+		print largest number.
+
+Two Largets Numbers
