@@ -1,4 +1,4 @@
-package MethodOveriding;
+package methodOveriding;
 
 public class MyClass {
 
