@@ -45,8 +45,7 @@ public class HashSetApi {
         hashSet.clear();
 
         System.out.println("hashSet size after clear: "+hashSet.size());
-
-
+        
 
 
 
