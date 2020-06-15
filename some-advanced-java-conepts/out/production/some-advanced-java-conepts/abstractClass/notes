@@ -1,3 +1,0 @@
-Abstract classes cannot be instatiated unlike conccrete classes
-Classes inheriting from an abstract class must imlement the methods of an abstract class
-Abstract superclass and its concrete subsclass can be polymorhpically processed
