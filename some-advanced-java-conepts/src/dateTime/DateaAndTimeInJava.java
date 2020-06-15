@@ -26,5 +26,7 @@ public class DateaAndTimeInJava {
 
         SimpleDateFormat sdf = new SimpleDateFormat("E yyyy/MM/dd HH-mm-ss"); // our own customization
         System.out.println(sdf.format(date));
+
+        // the various customisation options for date formatting can be found on docs.oracle.com website
     }
 }

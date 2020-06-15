@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/some-advanced-java-conepts.iml" filepath="$PROJECT_DIR$/some-advanced-java-conepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/some-back-java-conepts.iml" filepath="$PROJECT_DIR$/some-back-java-conepts.iml" />
     </modules>
   </component>
 </project>
