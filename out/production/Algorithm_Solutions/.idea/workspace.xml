@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b915e-ac8f-4f08-ba0f-9445ecdca347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exercises_4/InifiniteLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm_Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm_Solutions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm_Solutions/META-INF/Algorithm_Solutions.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExceptionHandling/DivideByZeroNoExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExceptionHandling/TryCatchTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchTestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +61,13 @@
       <recent name="randomAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reversing_Digits">
-    <configuration name="BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_9.inhertiance.BasePlusCommissionEmployeeTest" />
+  <component name="RunManager" selected="Application.DivideByZeroNoExceptionHandling">
+    <configuration name="Binary2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises_6.Binary2Decimal" />
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises_9.inhertiance.*" />
+          <option name="PATTERN" value="exercises_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_8.Composition.EmployeeTest" />
+    <configuration name="DivideByZeroNoExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.DivideByZeroNoExceptionHandling" />
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises_8.Composition.*" />
+          <option name="PATTERN" value="ExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.TicTacToe" />
+    <configuration name="SeparatingIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises_6.SeparatingIntegers" />
+      <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="PATTERN" value="exercises_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivideByZeroNoExceptionHandling" />
+        <item itemvalue="Application.Binary2Decimal" />
         <item itemvalue="Application.Reversing_Digits" />
+        <item itemvalue="Application.SeparatingIntegers" />
         <item itemvalue="Application.InifiniteLoop" />
-        <item itemvalue="Application.EmployeeTest" />
-        <item itemvalue="Application.BasePlusCommissionEmployeeTest" />
-        <item itemvalue="Application.TicTacToe (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,94 +155,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="215" y="221" width="671" height="659" key="#HashSets" timestamp="1581334633496">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="215" y="221" width="671" height="659" key="#HashSets/67.27.1853.1053@67.27.1853.1053" timestamp="1581334633496" />
-    <state x="645" y="205" width="847" height="677" key="#Project_Structure" timestamp="1582953743369">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="645" y="205" width="847" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1582953743369" />
-    <state x="190" y="210" width="671" height="685" key="#TicTacToe_(1)" timestamp="1582953569953">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="190" y="210" width="671" height="685" key="#TicTacToe_(1)/67.27.1853.1053@67.27.1853.1053" timestamp="1582953569953" />
-    <state x="678" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582953608389">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="678" y="185" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582953608389" />
-    <state x="1046" y="361" width="626" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582640631484">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="1046" y="361" width="626" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582640631484" />
-    <state x="236" y="222" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582953311253">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="236" y="222" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582953311253" />
-    <state x="192" y="310" width="605" height="485" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1581289022464">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="192" y="310" width="605" height="485" key="#com.intellij.refactoring.memberPushDown.PushDownDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581289022464" />
     <state x="385" y="96" width="1207" height="912" key="CommitChangelistDialog2" timestamp="1584784250455">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="385" y="96" width="1207" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1584784250455" />
-    <state x="1109" y="304" width="447" height="484" key="FileChooserDialogImpl" timestamp="1584784325601">
+    <state x="1109" y="304" width="447" height="484" key="FileChooserDialogImpl" timestamp="1591228218919">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1109" y="304" width="447" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1584784325601" />
-    <state width="849" height="660" key="GridCell.Tab.0.bottom" timestamp="1589777694867">
+    <state x="1109" y="304" width="447" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1591228218919" />
+    <state width="819" height="303" key="GridCell.Tab.0.bottom" timestamp="1589966489738">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="849" height="660" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589777694867" />
-    <state width="849" height="660" key="GridCell.Tab.0.center" timestamp="1589777694866">
+    <state width="819" height="303" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489738" />
+    <state width="819" height="303" key="GridCell.Tab.0.center" timestamp="1589966489737">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="849" height="660" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589777694866" />
-    <state width="849" height="660" key="GridCell.Tab.0.left" timestamp="1589777694866">
+    <state width="819" height="303" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
+    <state width="819" height="303" key="GridCell.Tab.0.left" timestamp="1589966489737">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="849" height="660" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589777694866" />
-    <state width="849" height="660" key="GridCell.Tab.0.right" timestamp="1589777694867">
+    <state width="819" height="303" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
+    <state width="819" height="303" key="GridCell.Tab.0.right" timestamp="1589966489737">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="849" height="660" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589777694867" />
+    <state width="819" height="303" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1584784217273">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1584784217273" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586274021868">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1592813741690">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586274021868" />
-    <state x="845" y="448" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581166365585">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="845" y="448" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053@67.27.1853.1053" timestamp="1581166365585" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1592813741690" />
     <state x="761" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584784227856">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="761" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1584784227856" />
-    <state x="324" y="271" width="452" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581354626596">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="324" y="271" width="452" height="559" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581354626596" />
     <state x="538" y="164" width="1372" height="796" key="new project wizard" timestamp="1584878254336">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="538" y="164" width="1372" height="796" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1584878254336" />
-    <state x="251" y="179" width="598" height="743" key="refactoring.ChangeSignatureDialog" timestamp="1581356535913">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="251" y="179" width="598" height="743" key="refactoring.ChangeSignatureDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581356535913" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1584784208249">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1584784208249" />
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1581947445252">
-      <screen x="67" y="27" width="1853" height="1053" />
-    </state>
-    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1581947445252" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

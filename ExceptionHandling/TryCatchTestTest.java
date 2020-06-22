@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TryCatchTestTest {
         TryCatch tryCatch;
+
     @BeforeEach
     void setUp() {
         tryCatch = new TryCatch();
