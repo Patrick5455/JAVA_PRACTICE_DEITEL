@@ -50,6 +50,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("%-8s %-8.2f %s", getFirstName(), getSalary(), getDepartment());
+        return String.format("%-8s %-8s %-8.2f %s", getFirstName(), getLastName(),getSalary(), getDepartment());
     }
 }

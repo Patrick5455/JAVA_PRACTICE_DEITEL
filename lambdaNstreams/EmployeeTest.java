@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -39,6 +40,33 @@ class EmployeeTest {
                 .filter(fourToSixThousand)
                 .sorted(Comparator.comparing(Employee::getSalary))
                 .forEach(System.out::println);
+
+
+        System.out.printf("%nFirst Employee who earns between $4000-$6000%n%s",
+
+        employeeList.stream()
+                .filter(fourToSixThousand)
+                .findFirst()
+                .get());
+
+
+        //Functions for getting first and last name
+
+        Function<Employee, String>  byFirstName = Employee::getFirstName;
+
+        Function<Employee, String> byLastName = Employee::getLastName;
+
+        Comparator<Employee> lastThanFirst = Comparator.comparing(byLastName)
+                                                        .thenComparing(byFirstName);
+
+        System.out.printf("%nEmployees in ascending order by last name then first name%n");
+
+        employeeList.stream()
+                .sorted(lastThanFirst)
+                .forEach(System.out::println);
+
+
+
     }
 
 
