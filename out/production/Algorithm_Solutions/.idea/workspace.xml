@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98b915e-ac8f-4f08-ba0f-9445ecdca347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExceptionHandling/DivideByZeroNoExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExceptionHandling/TryCatchTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExceptionHandling/TryCatchTestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericsNcollections/EliminateDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/genericsNcollections/EliminateDuplicatesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdaNstreams/Introduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdaNstreams/StreamMapReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambdaNstreams/StreamMapReduceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm_Solutions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm_Solutions/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -52,31 +56,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lambdaNstreams" />
+      <recent name="genericsNcollections" />
       <recent name="ExceptionHandling" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="randomAlgorithm" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DivideByZeroNoExceptionHandling">
-    <configuration name="Binary2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_6.Binary2Decimal" />
-      <module name="Algorithm_Solutions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivideByZeroNoExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.DivideByZeroNoExceptionHandling" />
+  <component name="RunManager" selected="Application.Introduction">
+    <configuration name="AssertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.AssertTest" />
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InifiniteLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_4.InifiniteLoop" />
+    <configuration name="Introduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdaNstreams.Introduction" />
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises_4.*" />
+          <option name="PATTERN" value="lambdaNstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reversing_Digits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_6.Reversing_Digits" />
+    <configuration name="UsingChainedExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionHandling.UsingChainedExceptions" />
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises_6.*" />
+          <option name="PATTERN" value="ExceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,28 +107,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeparatingIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises_6.SeparatingIntegers" />
+    <configuration name="StreamMapReduceTest.sumIntegers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Algorithm_Solutions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises_6.*" />
+          <option name="PATTERN" value="lambdaNstreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lambdaNstreams" />
+      <option name="MAIN_CLASS_NAME" value="lambdaNstreams.StreamMapReduceTest" />
+      <option name="METHOD_NAME" value="sumIntegers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMapReduceTest.summitMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm_Solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambdaNstreams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambdaNstreams" />
+      <option name="MAIN_CLASS_NAME" value="lambdaNstreams.StreamMapReduceTest" />
+      <option name="METHOD_NAME" value="summitMapping" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DivideByZeroNoExceptionHandling" />
-        <item itemvalue="Application.Binary2Decimal" />
-        <item itemvalue="Application.Reversing_Digits" />
-        <item itemvalue="Application.SeparatingIntegers" />
-        <item itemvalue="Application.InifiniteLoop" />
+        <item itemvalue="Application.Introduction" />
+        <item itemvalue="JUnit.StreamMapReduceTest.sumIntegers" />
+        <item itemvalue="JUnit.StreamMapReduceTest.summitMapping" />
+        <item itemvalue="Application.AssertTest" />
+        <item itemvalue="Application.UsingChainedExceptions" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -163,34 +187,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1109" y="304" width="447" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1591228218919" />
-    <state width="819" height="303" key="GridCell.Tab.0.bottom" timestamp="1589966489738">
+    <state width="879" height="303" key="GridCell.Tab.0.bottom" timestamp="1593073619319">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="819" height="303" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489738" />
-    <state width="819" height="303" key="GridCell.Tab.0.center" timestamp="1589966489737">
+    <state width="879" height="303" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1593073619319" />
+    <state width="879" height="303" key="GridCell.Tab.0.center" timestamp="1593073619318">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="819" height="303" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
-    <state width="819" height="303" key="GridCell.Tab.0.left" timestamp="1589966489737">
+    <state width="879" height="303" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1593073619318" />
+    <state width="879" height="303" key="GridCell.Tab.0.left" timestamp="1593073619318">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="819" height="303" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
-    <state width="819" height="303" key="GridCell.Tab.0.right" timestamp="1589966489737">
+    <state width="879" height="303" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1593073619318" />
+    <state width="879" height="303" key="GridCell.Tab.0.right" timestamp="1593073619319">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="819" height="303" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589966489737" />
+    <state width="879" height="303" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1593073619319" />
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1584784217273">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1584784217273" />
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1592813741690">
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1593073715778">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1592813741690" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593073715778" />
     <state x="761" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584784227856">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="761" y="472" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053" timestamp="1584784227856" />
+    <state x="289" y="240" width="473" height="634" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1593010542921">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="289" y="240" width="473" height="634" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1593010542921" />
     <state x="538" y="164" width="1372" height="796" key="new project wizard" timestamp="1584878254336">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
