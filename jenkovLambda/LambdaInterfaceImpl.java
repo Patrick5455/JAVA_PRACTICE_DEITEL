@@ -9,8 +9,15 @@ public class LambdaInterfaceImpl {
 
 
         // implementing with single parameter
-        LambdaInterface lambdaInterface =
-                (String name) -> System.out.println("Yes " + name );
+      //  LambdaInterface lambdaInterface =
+        //        (String name) -> System.out.println("Yes " + name );
+
+
+        // Implementing with return statement and parameter
+        LambdaInterface lambdaInterface = (name) -> {
+            System.out.println("Hello World " + name);
+            return "Hello World " + name;
+        };
 
         lambdaInterface.lambdaImpl("Patrick");
 
