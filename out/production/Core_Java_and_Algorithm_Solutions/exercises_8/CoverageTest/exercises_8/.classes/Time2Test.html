@@ -1,0 +1,121 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: Time2Test</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">exercises_8</a> ]
+</div>
+
+<h1>Coverage Summary for Class: Time2Test (exercises_8)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Time2Test</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    66.7%
+  </span>
+  <span class="absValue">
+    (2/ 3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    89.5%
+  </span>
+  <span class="absValue">
+    (17/ 19)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package exercises_8;
+<i>2</i>&nbsp;
+<b class="nc"><i>3</i>&nbsp;public class Time2Test {</b>
+<i>4</i>&nbsp;
+<i>5</i>&nbsp;    public static void main(String... args){
+<i>6</i>&nbsp;
+<b class="fc"><i>7</i>&nbsp;        Time2 t1 = new Time2(); //00:00:00</b>
+<b class="fc"><i>8</i>&nbsp;        Time2 t2 = new Time2(2); //02:00:00</b>
+<b class="fc"><i>9</i>&nbsp;        Time2 t3 = new Time2(21, 34); //21:34:00</b>
+<b class="fc"><i>10</i>&nbsp;        Time2 t4 = new Time2(12, 25, 42);// 12:25:42</b>
+<b class="fc"><i>11</i>&nbsp;        Time2 t5 = new Time2(t4); // 12:25:42</b>
+<i>12</i>&nbsp;
+<b class="fc"><i>13</i>&nbsp;        System.out.println(&quot;Constructued with:&quot;);</b>
+<i>14</i>&nbsp;
+<b class="fc"><i>15</i>&nbsp;        displayTime(&quot;t1: all default arguments &quot;, t1);</b>
+<b class="fc"><i>16</i>&nbsp;        displayTime(&quot;t2: hour specified; default minute and second &quot;, t2);</b>
+<b class="fc"><i>17</i>&nbsp;        displayTime(&quot;t3: hour and minute specified; default second&quot;, t3);</b>
+<b class="fc"><i>18</i>&nbsp;        displayTime(&quot;hour, minute and second specified&quot;, t4);</b>
+<b class="fc"><i>19</i>&nbsp;        displayTime(&quot;Time2 object t4 specified&quot;, t5);</b>
+<i>20</i>&nbsp;
+<i>21</i>&nbsp;        //attempt to initialize t6 with invalid value
+<i>22</i>&nbsp;
+<i>23</i>&nbsp;        try{
+<b class="fc"><i>24</i>&nbsp;            Time2 t6 = new Time2(27, 74, 99); //invalid argument</b>
+<i>25</i>&nbsp;        }
+<i>26</i>&nbsp;
+<b class="fc"><i>27</i>&nbsp;        catch (IllegalArgumentException e){</b>
+<b class="fc"><i>28</i>&nbsp;            System.out.printf(&quot;%nException while initializing t6: %s%n&quot;, e.getMessage());</b>
+<b class="nc"><i>29</i>&nbsp;        }</b>
+<b class="fc"><i>30</i>&nbsp;    }</b>
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;
+<i>33</i>&nbsp;    //displays a Time2 object in 24-hour and 12-hour formats
+<i>34</i>&nbsp;    private static void displayTime(String header, Time2 t){
+<b class="fc"><i>35</i>&nbsp;        System.out.printf(&quot;%s%n %s%n %s%n&quot;, header, t.toUniversalString(), t.toString());</b>
+<b class="fc"><i>36</i>&nbsp;    }</b>
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2020-02-17 12:52</div>
+</div>
+</body>
+</html>

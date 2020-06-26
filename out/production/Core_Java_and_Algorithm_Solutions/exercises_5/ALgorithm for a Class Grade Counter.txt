@@ -1,0 +1,34 @@
+ALgorithm for a Class Grade Counter
+
+Goal: Calaculate the average score for a class and display the number of students in each of the grades
+
+First Refinement: 
+1. Collect and save scores from the user
+2. Assign each score to a grade
+3. Calcualte the average score, the total score.
+4. Display the number of students in eachh grades
+
+Second Refinement
+1. Declare variables
+	Total, Score, gradeA, gradeB, gradeC. gradeD, gradeF, 	gradeCounter= 0;
+2. Instatiate a Scanner object with method to collect score from user
+3. Determine a sentinel value to stop user input
+4. Prompt user to input  score or sentinel value to stop the input
+4. While user input does not equal to sentinel value
+	instatiate variable score with Scanner object and method and 			collect and store input from the user to score
+	Add value of score to total in variable total
+	increase gradeCounter by 1
+	Delcare a Switch statement with an argument that divides score by 	10 to get single digit value.
+	 Declare cases for each grades with increment  for the grades
+	Cases 9 & 10 - ++gradeA
+	Case 8 - ++gradeB
+	Case 7 - ++gradeC
+	Case 6 - ++gradeD
+	default case -grade f
+
+8. if gradeCounter does not equal to zero 
+	divide total score by gradeCounter
+ 	Display number of total score and number of scores
+	Display number of  scores in each grade category
+
+9. else print no grade was entered
